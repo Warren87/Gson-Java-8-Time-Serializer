@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>ignis.warren</groupId>
-	<artifactId>gson-java-time</artifactId>
+	<groupId>ignisoft.org</groupId>
+	<artifactId>gson-time-adapter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Gson Java Time</name>
+	<name>Gson Java 8 Time Adapter</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -33,6 +33,7 @@
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.8.2</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
